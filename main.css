@@ -1,0 +1,49 @@
+.picture {
+    height: 550px;
+    width: auto;
+    border-radius: 20px;
+}
+.card-img {
+    width: 100vw;
+    height: auto;
+}
+
+#header{
+    position: relative;
+}
+#mainHeader{
+    color: white;
+    text-align: center;
+    width: 100vw;
+    font-size: 55px;
+    position: absolute;
+    top: 35%;
+}
+#subHeader{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+.projectHeader{
+    text-align: center;
+}
+ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    font-size: 1.3em;
+    text-size-adjust: .5;
+  }
+  .aboutMe{
+      font-size: 1.1em;
+  }
+body{
+    background-color: whitesmoke;
+}
+.intro-social-buttons{
+    position: absolute;
+    top: 60%;
+    left: 43vw;
+}
