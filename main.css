@@ -61,7 +61,9 @@ html,body{
 }
   .card:hover{
       /* box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04); */
-      transition: all .4s ease; /* zoom in */
-      transform: scale(1.05);
+      transition: all 1s ease; /* zoom in */
+      transform: scale(1.10);
+      /* border: solid 5px red; */
+      z-index: 3;
   }
   
